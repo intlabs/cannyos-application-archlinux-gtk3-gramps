@@ -35,7 +35,8 @@ WORKDIR /
 
 #Install gramps
 RUN pacman -Syyu --noconfirm && \
-	pacman -Syy --noconfirm gramps
+	pacman -Syy --noconfirm webkitgtk3 
+	pacman -Syy --noconfirm gramps 
 
 #****************************************************
 #                                                   *
